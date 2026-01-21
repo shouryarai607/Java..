@@ -7,10 +7,10 @@ void f1(int x,int y)
 this.x=x;
 this.y=y;
 }
-void f2()
+void display()
 {
-System.out.println(x);
-System.out.println(y);
+System.out.println(this.x);
+System.out.println(this.y);
 }
 }
 
@@ -20,6 +20,6 @@ public static void main(String []args)
 {
 Example e1=new Example();
         e1.f1(6,9);
-        e1.f2();
+        e1.display();
 }
 }
