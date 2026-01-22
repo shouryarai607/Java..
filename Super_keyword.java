@@ -27,7 +27,7 @@ class Super_keyword
 {
 public static void main(String []args)
 {
-//Example e1=new Example();
+// Example e1=new Example();
        // e1.f1(6,9);
        // e1.f2();
 Example2 e2=new Example2();
