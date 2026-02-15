@@ -11,3 +11,4 @@ public class SimpleSum {
         System.out.println("The total is: " + sum);
     }
 }
+public
