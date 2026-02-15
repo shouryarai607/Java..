@@ -42,7 +42,7 @@ public static void main(String[] args)
 //i1.f2();
 //i2.f2();
 Demo d1=new Demo();
-d1.f2();
+    d1.f2();
 
 }
 }
