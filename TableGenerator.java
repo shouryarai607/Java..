@@ -9,9 +9,6 @@ public class TableGenerator {
 
         System.out.println("\nMultiplication Table for " + num + ":");
         System.out.println("---------------------------");
-
-        
-        // The 'for' loop: (start; condition; increment)for (int i = 1; i <= 10; i++) 
         {
             int result = num * i;
             System.out.println(num + " x " + i + " = " + result);
