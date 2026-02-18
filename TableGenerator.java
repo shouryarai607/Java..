@@ -20,5 +20,3 @@ public class TableGenerator {
          scanner.close();
     }
 }
-
- scanner.close();
