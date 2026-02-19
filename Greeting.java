@@ -5,3 +5,10 @@ public class Greeting {
         Scanner reader = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
+        String name = reader.nextLine();
+
+        System.out.println("Hello, " + name + "! Welcome to Java.");
+        
+        reader.close();
+    }
+}
