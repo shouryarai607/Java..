@@ -9,3 +9,7 @@ public class VotingCheck {
         if (age >= 18) {
             System.out.println("You are eligible to vote!");
         } else {
+            int yearsLeft = 18 - age;
+            System.out.println("You are too young to vote.");
+            System.out.println("Come back in " + yearsLeft + " years!");
+        }
