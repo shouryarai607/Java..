@@ -6,3 +6,6 @@ public class VotingCheck {
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
+        if (age >= 18) {
+            System.out.println("You are eligible to vote!");
+        } else {
