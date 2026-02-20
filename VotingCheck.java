@@ -13,3 +13,6 @@ public class VotingCheck {
             System.out.println("You are too young to vote.");
             System.out.println("Come back in " + yearsLeft + " years!");
         }
+        scanner.close();
+    }
+}
