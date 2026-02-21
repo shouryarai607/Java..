@@ -14,3 +14,9 @@ public class GradeStats {
         }
 
         double average = sum / grades.length;
+        
+        System.out.println("Number of grades: " + grades.length);
+        System.out.println("Average score: " + average);
+        System.out.println("Highest score: " + highest);
+    }
+}
