@@ -13,5 +13,6 @@ System.out.println("College");
 public void Exam()
 {
 System.out.println("Exam m aage");
+System.out.println("Exam m aage");
 }
 }
