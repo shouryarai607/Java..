@@ -16,3 +16,9 @@ public class BubbleSortExample {
         System.out.println("\nAfter Sorting:");
         printArray(numbers);
     }
+    public static void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
