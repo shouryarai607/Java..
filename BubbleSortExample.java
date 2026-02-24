@@ -13,3 +13,6 @@ public class BubbleSortExample {
                 }
             }
         }
+        System.out.println("\nAfter Sorting:");
+        printArray(numbers);
+    }
