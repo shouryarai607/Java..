@@ -29,3 +29,13 @@ public class TaskManager {
         }
         scanner.close();
     }
+
+    private static void saveTasks(ArrayList<String> tasks) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(FILE_NAME))) {
+            for (String task : tasks) {
+                writer.println(task);
+            }
+        } catch (IOException e) {
+            System.out.println("Error saving file: " + e.getMessage());
+        }
+    }
