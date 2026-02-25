@@ -39,3 +39,19 @@ public class TaskManager {
             System.out.println("Error saving file: " + e.getMessage());
         }
     }
+
+    private static ArrayList<String> loadTasks() {
+        ArrayList<String> tasks = new ArrayList<>();
+        File file = new File(FILE_NAME);
+        if (!file.exists()) return tasks;
+
+        try (Scanner fileScanner = new Scanner(file)) {
+            while (fileScanner.hasNextLine()) {
+                tasks.add(fileScanner.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("No saved tasks found.");
+        }
+        return tasks;
+    }
+}
